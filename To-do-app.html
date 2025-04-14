@@ -5,15 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do app</title>
     <link rel="stylesheet" href="t2.css">
+    <style>
+        h1{
+            color:blue;
+            margin: 2rem;
+        }
+        button{
+            color:pink;
+            background-color: blueviolet;
+        }
+        input{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+        }
+        li{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 50rem;
+            color:blue;
+            margin:2rem;
+            font-size: medium;
+        }
+    </style>
 </head>
 <body>
+    <br>
     <h1>To-do app</h1>
     <input placeholder="Enter ur task"/>
+    
     <button>Add task</button>
+    <br><br>
     <ul>
-        <li>Eat</li>
-        <li>sleep</li>
+        <li>Eat  <button class="dlt">Delete</button></li>
+        <li>sleep  <button class="dlt">Delete</button></li>
     </ul>
+    <br>
     <script src="app.js"></script>
 </body>
 </html>
