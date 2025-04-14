@@ -3,6 +3,7 @@ Here is the list of tasks which i have done in this repo-
 -Sidebar menu made using html, css
 - Pricing page made using bootstrap
 - to-do list generater
-- -to-do app
+- -to-do app using 
 - color generater
-- 
+- Simon says game
+- Spotify clone
